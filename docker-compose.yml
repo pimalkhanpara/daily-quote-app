@@ -1,0 +1,7 @@
+services:
+  quote-app:
+    build: .
+    container_name: quote-app
+    restart: unless-stopped
+    ports:
+      - "8080:80"

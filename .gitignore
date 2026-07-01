@@ -1,0 +1,27 @@
+# Git metadata
+.git
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Backup files
+*.bak
+
+# Environment variables (don't commit secrets)
+.env
+
+# IDE folders
+.vscode/
+.idea/
+
+# Docker override file (optional)
+docker-compose.override.yml
