@@ -1,16 +1,47 @@
 let quotes = [];
 
-fetch("quotes.json")
-.then(response => response.json())
-.then(data => {
-    quotes = data;
-});
+let currentQuote = null;
 
-function generateQuote(){
+const quoteElement = document.getElementById("quote");
 
-    let random = Math.floor(Math.random()*quotes.length);
+const authorElement = document.getElementById("author");
 
-    document.getElementById("quote").innerHTML =
-        quotes[random];
+const button = document.getElementById("newQuoteBtn");
+
+async function loadQuotes() {
+
+    try {
+
+        const response = await fetch("quotes.json");
+
+        quotes = await response.json();
+
+        showRandomQuote();
+
+    }
+
+    catch(error){
+
+        quoteElement.innerHTML = "Unable to load quotes.";
+
+        console.error(error);
+
+    }
 
 }
+
+function showRandomQuote(){
+
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+
+    currentQuote = quotes[randomIndex];
+
+    quoteElement.innerHTML = `"${currentQuote.quote}"`;
+
+    authorElement.innerHTML = `— ${currentQuote.author}`;
+
+}
+
+button.addEventListener("click", showRandomQuote);
+
+loadQuotes();
