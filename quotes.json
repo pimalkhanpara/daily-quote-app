@@ -1,62 +1,122 @@
 [
-    {
-        "id": 1,
-        "category": "Success",
-        "author": "Robert Collier",
-        "quote": "Success is the sum of small efforts repeated day in and day out."
-    },
-    {
-        "id": 2,
-        "category": "Leadership",
-        "author": "John C. Maxwell",
-        "quote": "A leader is one who knows the way, goes the way and shows the way."
-    },
-    {
-        "id": 3,
-        "category": "Learning",
-        "author": "Albert Einstein",
-        "quote": "Once you stop learning, you start dying."
-    },
-    {
-        "id": 4,
-        "category": "Discipline",
-        "author": "Jim Rohn",
-        "quote": "Discipline is the bridge between goals and accomplishment."
-    },
-    {
-        "id": 5,
-        "category": "Teamwork",
-        "author": "Helen Keller",
-        "quote": "Alone we can do so little; together we can do so much."
-    },
-    {
-        "id": 6,
-        "category": "Success",
-        "author": "Winston Churchill",
-        "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts."
-    },
-    {
-        "id": 7,
-        "category": "Motivation",
-        "author": "Theodore Roosevelt",
-        "quote": "Believe you can and you're halfway there."
-    },
-    {
-        "id": 8,
-        "category": "Learning",
-        "author": "Benjamin Franklin",
-        "quote": "An investment in knowledge pays the best interest."
-    },
-    {
-        "id": 9,
-        "category": "Leadership",
-        "author": "Simon Sinek",
-        "quote": "Leadership is not about being in charge. It is about taking care of those in your charge."
-    },
-    {
-        "id": 10,
-        "category": "Discipline",
-        "author": "Aristotle",
-        "quote": "We are what we repeatedly do. Excellence, then, is not an act but a habit."
-    }
+  {
+    "id": 1,
+    "category": "Success",
+    "author": "Robert Collier",
+    "quote": "Success is the sum of small efforts repeated day in and day out."
+  },
+  {
+    "id": 2,
+    "category": "Leadership",
+    "author": "John C. Maxwell",
+    "quote": "A leader is one who knows the way, goes the way and shows the way."
+  },
+  {
+    "id": 3,
+    "category": "Learning",
+    "author": "Albert Einstein",
+    "quote": "Once you stop learning, you start dying."
+  },
+  {
+    "id": 4,
+    "category": "Discipline",
+    "author": "Jim Rohn",
+    "quote": "Discipline is the bridge between goals and accomplishment."
+  },
+  {
+    "id": 5,
+    "category": "Teamwork",
+    "author": "Helen Keller",
+    "quote": "Alone we can do so little; together we can do so much."
+  },
+  {
+    "id": 6,
+    "category": "Motivation",
+    "author": "Theodore Roosevelt",
+    "quote": "Believe you can and you're halfway there."
+  },
+  {
+    "id": 7,
+    "category": "Success",
+    "author": "Winston Churchill",
+    "quote": "Success is not final, failure is not fatal."
+  },
+  {
+    "id": 8,
+    "category": "Leadership",
+    "author": "Simon Sinek",
+    "quote": "Leadership is about taking care of those in your charge."
+  },
+  {
+    "id": 9,
+    "category": "Learning",
+    "author": "Benjamin Franklin",
+    "quote": "An investment in knowledge pays the best interest."
+  },
+  {
+    "id": 10,
+    "category": "Discipline",
+    "author": "Aristotle",
+    "quote": "We are what we repeatedly do."
+  },
+  {
+    "id": 11,
+    "category": "Teamwork",
+    "author": "Andrew Carnegie",
+    "quote": "Teamwork is the fuel that allows common people to attain uncommon results."
+  },
+  {
+    "id": 12,
+    "category": "Motivation",
+    "author": "Confucius",
+    "quote": "It does not matter how slowly you go as long as you do not stop."
+  },
+  {
+    "id": 13,
+    "category": "Success",
+    "author": "Napoleon Hill",
+    "quote": "Patience, persistence and perspiration make an unbeatable combination."
+  },
+  {
+    "id": 14,
+    "category": "Leadership",
+    "author": "John Quincy Adams",
+    "quote": "If your actions inspire others to dream more, you are a leader."
+  },
+  {
+    "id": 15,
+    "category": "Learning",
+    "author": "Nelson Mandela",
+    "quote": "Education is the most powerful weapon to change the world."
+  },
+  {
+    "id": 16,
+    "category": "Discipline",
+    "author": "Brian Tracy",
+    "quote": "Successful people are simply those with successful habits."
+  },
+  {
+    "id": 17,
+    "category": "Teamwork",
+    "author": "Phil Jackson",
+    "quote": "The strength of the team is each individual member."
+  },
+  {
+    "id": 18,
+    "category": "Motivation",
+    "author": "Steve Jobs",
+    "quote": "The only way to do great work is to love what you do."
+  },
+  {
+    "id": 19,
+    "category": "Success",
+    "author": "Vince Lombardi",
+    "quote": "The price of success is hard work."
+  },
+  {
+    "id": 20,
+    "category": "Learning",
+    "author": "Mahatma Gandhi",
+    "quote": "Live as if you were to die tomorrow. Learn as if you were to live forever."
+  }
 ]

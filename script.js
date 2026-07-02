@@ -3,38 +3,39 @@ let quotes = [];
 let currentQuote = null;
 
 const quoteElement = document.getElementById("quote");
-
 const authorElement = document.getElementById("author");
-
+const category = document.getElementById("category");
 const button = document.getElementById("newQuoteBtn");
 
 async function loadQuotes() {
 
-    try {
+    const response = await fetch("quotes.json");
 
-        const response = await fetch("quotes.json");
+    quotes = await response.json();
 
-        quotes = await response.json();
-
-        showRandomQuote();
-
-    }
-
-    catch(error){
-
-        quoteElement.innerHTML = "Unable to load quotes.";
-
-        console.error(error);
-
-    }
+    showRandomQuote();
 
 }
 
-function showRandomQuote(){
+function showRandomQuote() {
 
-    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const selectedCategory = category.value;
 
-    currentQuote = quotes[randomIndex];
+    let filteredQuotes = quotes;
+
+    if (selectedCategory !== "All") {
+
+        filteredQuotes = quotes.filter(
+
+            quote => quote.category === selectedCategory
+
+        );
+
+    }
+
+    const randomIndex = Math.floor(Math.random() * filteredQuotes.length);
+
+    currentQuote = filteredQuotes[randomIndex];
 
     quoteElement.innerHTML = `"${currentQuote.quote}"`;
 
@@ -43,5 +44,7 @@ function showRandomQuote(){
 }
 
 button.addEventListener("click", showRandomQuote);
+
+category.addEventListener("change", showRandomQuote);
 
 loadQuotes();

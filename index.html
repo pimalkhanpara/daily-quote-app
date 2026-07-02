@@ -10,23 +10,43 @@
 
     <div class="container">
 
-        <h1>Daily Quote Generator</h1>
+    <h1>Daily Quote Generator</h1>
 
-        <div class="quote-box">
+    <label for="category"><strong>Select Category</strong></label>
 
-            <p id="quote">
-                Click the button to generate a motivational quote.
-            </p>
+    <select id="category">
 
-            <h3 id="author"></h3>
+        <option value="All">All</option>
 
-            <button id="newQuoteBtn">
-                New Quote
-            </button>
+        <option value="Success">Success</option>
 
-        </div>
+        <option value="Leadership">Leadership</option>
+
+        <option value="Learning">Learning</option>
+
+        <option value="Discipline">Discipline</option>
+
+        <option value="Teamwork">Teamwork</option>
+
+        <option value="Motivation">Motivation</option>
+
+    </select>
+
+    <div class="quote-box">
+
+        <p id="quote"></p>
+
+        <h3 id="author"></h3>
+
+        <button id="newQuoteBtn">
+
+            New Quote
+
+        </button>
 
     </div>
+
+</div>
 
     <script src="script.js"></script>
 
